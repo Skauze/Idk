@@ -1,7 +1,8 @@
 <script>
 // Get the video
-var video = document.getElementById("myVideo");
+var video = document.getElementById("Background");
+// Get audio file
+var audio = document.getElementById("Music");
 // Get the button
 //var btn = document.getElementById("myBtn");
-// Pause and play the video, and change the button text
 </script>
