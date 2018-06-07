@@ -15,6 +15,10 @@
 	width: 100%;
 	padding: 20px;
 }
+/* Styles the audio: No controls :D */
+#Music {
+	display: none;
+}
 /*
 #myBtn {
 	width: 200px;
