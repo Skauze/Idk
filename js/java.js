@@ -4,7 +4,7 @@ var video = document.getElementById("Background");
 // Get audio file
 var x = document.getElementById("Music");
 function enableControls() { 
-    x.controls = false;
+    x.controls = true;
     x.load();
 }
 // Get the button
