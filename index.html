@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <!-- Include CSS ---------------------------------------------------------->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <!-- Include icon --------------------------------------------------------->
 <link rel="shortcut icon" href="favicon.ico">
 <!-- Title ---------------------------------------------------------------->
 <title>Warlauke</title>
-<!-- Include Video -------------------------------------------------------->
-<video id="Background" autoplay muted loop>
-	<source src="Extra/background/background.mp4" type="video/mp4">
-</video> 
+<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<video autoplay loop id="video-background" muted plays-inline>
+  <source src="Extra/Background/background.mp4" type="video/mp4">
+</video>
 <!-- Include Audio -------------------------------------------------------->
 <audio src="Extra/Background/music.mp3" autoplay>
 <p>If you are reading this, it is because your browser does not support the audio element.</p>
 <embed src="Extra/Background/music.mp3" width="180" height="90" hidden="true" />
 </audio>
+
+<!--  Content  -->
+<article>
+  <h1>GROSS DESIGN co. <br /> <span>(Made by <a href="http://mattgross.io" target="_blank">Matt Gross</a>, for <a href="https://evenvision.com">EvenVision</a>)</span></h1>
+</article>
+  
