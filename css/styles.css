@@ -1,8 +1,0 @@
-.blur {
-  position: absolute;
-  background: #000;
-  color: #fff;
-  padding: 1em;
-  cursor:pointer;
-  z-index: 1000;
-}
