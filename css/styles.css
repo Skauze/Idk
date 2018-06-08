@@ -1,23 +1,8 @@
-body {
-  background: #fff;
-  margin: 0 0;
-  padding:10px;
-  text-align:center;
-}
-
-#videobcg { 
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   min-width: 100%;
-   min-height: 100%;
-   width: auto;
-   height: auto;
-   z-index: -1000;
-   overflow: hidden;
-    -webkit-filter: blur(125px);
-  -moz-filter: blur(125px);
-  -o-filter: blur(125px);
-  -ms-filter: blur(125px);
-  filter: blur(125px);
+.blur {
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 1em;
+  cursor:pointer;
+  z-index: 1000;
 }
