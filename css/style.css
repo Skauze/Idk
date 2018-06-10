@@ -4,6 +4,10 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  -webkit-background-style: cover;
+  -moz-background-style: cover;
+  -o-background-size: cover;
+  background-style: cover;
 }
 
 .container {
@@ -13,7 +17,7 @@
 }
 .extra {
   position: fixed;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -28,8 +32,4 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.btnlist {
-  float: left;
-
 }
