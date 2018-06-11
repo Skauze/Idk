@@ -26,7 +26,18 @@
 }
 
 /* unvisited link */
-a:link, a:visited, a:active a:hover {
+a:link, a:visited, a:active {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+  -webkit-transition: 500ms linear 0s;
+  -moz-transition: 500ms linear 0s;
+  -o-transition: 500ms linear 0s;
+  transition: 500ms linear 0s;
+  outline: 0 none;
 }
