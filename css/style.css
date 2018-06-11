@@ -15,21 +15,33 @@
   text-align: center;
   color: white;
 }
-.extra {
+.title {
   position: fixed;
-  top: 55%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.title {
+.subtitle {
   position: fixed;
-  top: 45%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
 } 
-.links {
+.github {
   position: fixed;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+.youtube {
+  position: fixed;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.steam {
+  position: fixed;
+  top: 50%;
+  left: 52%;
   transform: translate(-50%, -50%);
 }
