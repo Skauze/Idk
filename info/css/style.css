@@ -1,14 +1,16 @@
 /* Video CSS */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-background-style: cover;
-  -moz-background-style: cover;
-  -o-background-size: cover;
-  background-style: cover;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* Image */
+  background-image: url(../../extra/backgrounds/background2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Top page title CSS */
 .title {
@@ -17,6 +19,13 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+/* Info CSS */
+.info {
+  position: fixed;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
 /* Text above background CSS */
 .container {
   position: relative;
@@ -31,4 +40,9 @@ div.a {
 a:link, a:visited, a:active {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
 }
